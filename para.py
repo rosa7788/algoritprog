@@ -19,3 +19,6 @@ for item in compras:
 for n in range(4,10):
     print(n)
 
+
+
+

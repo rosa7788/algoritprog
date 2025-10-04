@@ -89,7 +89,7 @@ else:
 
 print("Fim do programa")
 """
-
+"""
 x = int(input("Digite um valor inteiro:"))
 if x == 0:
     print("O valor", x, "é igual a zero")
@@ -100,6 +100,20 @@ else:
         print("O valor", x, "é negativo")
 
 print("Fim do programa")
+"""
+"""
+nota = int(input("Digite a nota do aluno:"))
+if nota >= 30 and nota < 60:
+    print("Precisa fazer sub")
+else:
+    print("Não precisa de sub")
+"""
+"""
+if n % == 0:
+    print("blabkla")
+"""
+
+
 
 
 
