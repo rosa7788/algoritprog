@@ -28,6 +28,8 @@ else:
     print("Parcela:", parcela)
     print("Desconto:", desconto)
 
+    
+
 
 
 
