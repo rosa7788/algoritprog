@@ -112,7 +112,19 @@ else:
 if n % == 0:
     print("blabkla")
 """
+a = [1,2,3,4,5,6,7,8,9,33,44,55,66]
 
+x = 11
+if x in a:
+    print('encontrei')
+else:
+    print('nao esta :(')
+
+a.reverse() #inverte
+a.sort() #ordena
+print(a)
+a.remove ('44') #remove 
+print(a)
 
 
 

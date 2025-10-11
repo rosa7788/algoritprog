@@ -30,12 +30,14 @@ nomes = [Rosa, Maria, Vitoria]
 for nome in nomes:
     print(nome)
 """
+"""
 n = int(input("Informe numero para a tabuada:"))
 
 for x in range (1,11):
     total = (x * n)
     
     print ("A tabuada é:", n, "X", x, "=", total)
+"""
 
 
 
