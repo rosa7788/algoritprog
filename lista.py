@@ -165,12 +165,57 @@ a.append(-5)
 print(a)
 print(b)
 """
+"""
+lista1 = [1,2,3,4]
+lista2 = [9,8,7,6]
 
+#concatenacao ou uniao
+x = lista1 + lista2
+print(x)
 
+y = lista1 * 3
+print(y)
 
+#deleta uma posicao especifica da lista
+del y[5]
+print(y)
+"""
+"""
+a = [9,8,7]
+print(a)
+b = a
+print(b)
 
+b.append(333)
+print(a)
+print(b)
 
+del a[1]
+print(a)
+print(b)
 
+#copia
+c = a[:]
+print('c', c)
+c.append(444)
+print(c)
+print('a:', a)
+
+#endereços de memoria
+print(id(a))
+print(id(b))
+print(id(c))
+
+#verificar se um elemento consta na linha
+if 7 in c:
+    print("7 esta na lista")
+
+print(c)
+c.append(55)
+print(c)
+c.insert(0,99)
+print(c)
+"""
 
 
 
