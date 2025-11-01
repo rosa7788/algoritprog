@@ -49,3 +49,5 @@ aluno['nome'] = "Bortoltoti"
 print(aluno)
 aluno ['disciplina'] = "logica"
 print(aluno)
+
+#funcao sao blocos de codigos que podem ser nomeadas e chamadas dentro de um programa
