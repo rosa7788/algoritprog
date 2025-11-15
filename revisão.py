@@ -18,19 +18,13 @@ def por3(matriz):
             if matriz [l][c] % 2 == 0:
                 matriz[l][c] = matriz[l][c] * 3
 
-def valor(matriz):
-    maior = matriz[0][0]
-    for linha in matriz:
-        if linha < maior:
-            maior = linha
-    return maior
+
 
 total = somar(matriz)
 print(total)
 por3(matriz)
 print(matriz)
-valor(matriz)
-print(matriz)
+
 """
 def buscarAluno(matricula,lista):
     for a in lista:
